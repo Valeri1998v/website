@@ -1,0 +1,103 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+h1 {
+    font-family: 'Playfair Display SC', serif,;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+  }
+
+.Wrapper {
+  margin: auto;
+  width: 200px;
+}
+
+.modalWrapper {
+  margin: auto;
+  position: absolute;
+  width: 1000px;
+  height: 800px;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  padding: 20px;
+  color: green;
+  border-radius: 20px;
+  display: none;
+  overflow: auto;
+  overflow-x: scroll;
+}
+
+.close {
+  font-size: 20px;
+  margin-left: 580px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: black;
+  border: none;
+  color: green;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+img {
+  vertical-align: top;
+  bottom: auto;
+}
+
+div {
+    text-align: center;
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+  }
+
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+
