@@ -36,6 +36,11 @@ h1 {
   overflow-x: scroll;
 }
 
+img {
+  height: 400px;
+  width: 350px;
+}
+
 .close {
   font-size: 20px;
   margin-left: 580px;
